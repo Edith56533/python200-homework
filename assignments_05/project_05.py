@@ -1,8 +1,6 @@
 
 # --- Task 1: Setup and System Prompt ---
 
-from pyexpat.errors import messages
-
 from dotenv import load_dotenv
 from openai import OpenAI
 import json
