@@ -1,0 +1,16 @@
+{
+    "city": "Eagle Pass, Texas",
+    "python_version": "3.14.6",
+    "sklearn_version": "1.9.1",
+    "features": [
+        "temperature_2m_max",
+        "temperature_2m_min",
+        "precipitation_sum",
+        "wind_speed_10m_max"
+    ],
+    "label_rule": "High temperature 7-26 C, low temperature >= 0 C, precipitation < 3 mm, wind speed < 30 km/h",
+    "model": "KNeighborsClassifier",
+    "best_k": 1,
+    "test_accuracy": 0.958904109589041,
+    "test_f1": 0.896551724137931
+}
